@@ -1,0 +1,40 @@
+dbms,TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH,CONSTRAINT_TYPE,TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME
+sqlserver,LaborStatisticsDB,dbo,datatype,data_type_code,1,tinyint,NULL,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,datatype,data_type_text,2,nvarchar,100,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,seasonal,industry_code,1,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,seasonal,seasonal_text,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,supersector,supersector_code,1,tinyint,NULL,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,supersector,supersector_name,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,footnote,footnote_code,1,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,footnote,footnote_text,2,nvarchar,100,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,january_2017,id,1,bigint,NULL,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,january_2017,series_id,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,january_2017,year,3,smallint,NULL,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,january_2017,period,4,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,january_2017,value,5,float,NULL,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,january_2017,footnote_codes,6,nvarchar,1,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,january_2017,original_file,7,nvarchar,100,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,annual_2016,id,1,smallint,NULL,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,annual_2016,series_id,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,annual_2016,year,3,smallint,NULL,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,annual_2016,period,4,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,annual_2016,value,5,float,NULL,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,annual_2016,footnote_codes,6,nvarchar,1,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,annual_2016,original_file,7,nvarchar,100,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,series,series_id,1,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,series,supersector_code,2,bigint,NULL,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,series,industry_code,3,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,series,data_type_code,4,bigint,NULL,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,series,seasonal,5,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,series,series_title,6,nvarchar,100,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,period,period_code,1,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,period,month_abbr,2,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,period,month,3,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,industry,id,1,smallint,NULL,PRIMARY KEY,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,industry,industry_code,2,bigint,NULL,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,industry,naics_code,3,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,industry,publishing_status,4,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,industry,industry_name,5,nvarchar,100,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,industry,display_level,6,float,NULL,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,industry,selectable,7,nvarchar,50,NULL,NULL,NULL,NULL
+sqlserver,LaborStatisticsDB,dbo,industry,sort_sequence,8,float,NULL,NULL,NULL,NULL,NULL
